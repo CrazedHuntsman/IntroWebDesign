@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The CH Lodge</title>
+        
+        <meta charset="UTF-8">
+
+        <meta name="description" content="this is my personal idea">
+
+        <meta name="author" content="Damian Beardslee">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body {
+                background-color:peru;
+                font-family: 'Franklin Gothic Medium';
+                font-size: 14px;
+            }
+            table {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="pictures/Logo cabin.png" width="500" height="150" alt="Logo cabin" title="CH Cabin">
+        <pr></pr>
+        <form method="post" action="Week 7 website">
+        <h1>Interested in:</h1>
+        <input type="checkbox" name="Interested in" type="Interested in" value="3D Asset">3D Asset<br />
+        <input type="checkbox" name="Interested in" type="Interested in" value="3D Model">3D Model<br />
+        <input type="checkbox" name="Interested in" type="Interested in" value="Animation">Animation<br />
+        <pr></pr>
+        comments<br />
+        <textarea name="comments" id="comments" rows="10" col="40">any additional info or requests</textarea>
+        <p></p>
+        Join the email updates?
+        Yes&nbsp;<input type="radio" name="updates" type="updates" value="yes">
+        No&nbsp;<input type="radio" name="updates" type="updates" value="no">
+        </br>
+        <input type="submit" name="join" value="Join" />
+        </form>
+        <pr></pr>
+        <h2>Contacts</h2>
+        <a href="mailto:crazedhuntsman@gmail.com">Send Inquiries</a>
+        <address>Currently home based artist
+            <a href="tel:555 - 543-5984" target="_blank" rel="noopener">555-543-5984</a>
+        </address>
+        <p>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Cost</th>
+                </tr>
+                <tr>
+                    <td>3D Asset</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>3D Model</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Animation</td>
+                    <td>$350</td>
+                </tr>
+            </table>
+        </p>
+
+    </body>
+</html>
