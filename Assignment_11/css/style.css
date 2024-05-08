@@ -1,0 +1,30 @@
+div{
+    text-align: left;
+    font-family: Rogie;
+    font-style: normal;
+    margin: 12px;
+}
+
+.title{
+    font-family: Those Glitch Regular;
+    font-size: 80px;
+    text-shadow: -7px 3px 0 #0a2761;
+    color:beige;
+    background-color: #888686;
+    height: 100px;
+    text-align: center;
+}
+
+#confusion{
+    font-family: runeslasher;
+    font-weight: 850px;
+}
+
+#transform{
+    font-family: cubic;
+    font-size: 20px;
+}
+
+#uppercase{
+    text-transform: uppercase;
+}
