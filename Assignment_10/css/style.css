@@ -1,0 +1,36 @@
+body{
+    font-family: fantasy;
+}
+
+.maincontainer{
+
+    border-style:double;
+    border-width:10px;
+    border-color:rgb(48, 144, 195);
+    padding:10px;
+    background :rgb(139, 121, 17);
+    width: 75%;
+    margin: auto;
+}
+
+div.align{
+   text-align: center; 
+}
+
+.secondary-container{
+
+    margin: auto;
+    width: 50%;
+    padding: 45px;
+    border-bottom: 1px black solid;
+    border-spacing: inherit;
+}
+
+#mainheader{
+    position: relative;
+    left: 22px;
+    top: 10px;
+    color: rgb(125, 124, 124);
+    opacity: .75;
+    font-size: 60px;
+}
