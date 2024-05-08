@@ -2,7 +2,7 @@ body{
     font-family: fantasy;
 }
 
-.maincontainer{
+.main-container{
 
     border-style:double;
     border-width:10px;
@@ -30,7 +30,7 @@ div.align{
     position: relative;
     left: 22px;
     top: 10px;
-    color: rgb(125, 124, 124);
+    color: rgb(128, 127, 127);
     opacity: .75;
     font-size: 60px;
 }
