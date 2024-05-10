@@ -1,0 +1,101 @@
+body{
+    font-family: 'Those Glitch Regular';
+    font-style: normal;
+}
+
+header{
+    position: fixed;
+    background-color: rgb(167, 0, 103);
+    font-family: 'Rogie';
+    font-style: normal;
+    color: rgb(63, 63, 63);
+    font-variant: small-caps;
+    text-align: left;
+    margin: 0;
+    height: 2.5em;
+    width: 100%;
+}
+
+.menu-item{
+    display: inline-block;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 0.5em 0;
+}
+
+.menu-item a {
+    color:beige;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: rgb(0, 26, 255)
+}
+
+.dropdown {
+    display: inline-block;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color: rgb(102, 3, 164);
+    padding: 0.5em 0;
+}
+
+.dropdown a {
+    color: rgb(0, 0, 179);
+    text-decoration: none;
+}
+
+.dropdown-content {
+    dipslay: none;
+    position: absolute;
+    border: 1px solid black;
+    margin: 0;
+    margin-top: 0.5em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.dropdown a {
+    color:black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #2807ff;
+    background-color: #4c2955;
+}
+
+.mainimage {
+    float: left;
+}
+
+.directionImage {
+    float: right;
+    width: 400px;
+    height: 200px;
+    margin: 0 0 0 80px;
+}
+
+.direction {
+    height: 200px;
+    width: 65%;
+    background-color:#c28efd;
+    border-radius: 3em;
+    margin: 4em;
+    padding: .5em;
+    overflow: scroll;
+}

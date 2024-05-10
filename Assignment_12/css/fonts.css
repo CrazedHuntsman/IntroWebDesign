@@ -1,0 +1,26 @@
+@font-face{
+    font-family:'Rogie';
+    src: url('../fonts/Rogie.ttf') format('truetype');
+    font-style: 'bold';
+}
+
+
+@font-face{
+    font-family: 'cubic';
+    src: url(../fonts/cubic.ttf) format('truetype');
+    font-style: 'bold';
+}
+
+
+@font-face{
+    font-family: 'runeslasher';
+    src: url('../fonts/runeslasher.ttf') format('truetype');
+    font-style: 'bold';
+}
+
+
+@font-face{
+    font-family: 'Those Glitch Regular';
+    src: url('../fonts/Those\ Glitch\ Regular.ttf') format('truetype');
+    font-style: 'bold';
+}
